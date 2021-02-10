@@ -11,7 +11,7 @@ const postProduct = (req, res) => {
             if (err) {
                 console.log(err)
             } else {
-                res.send('All values were inserted :)')
+                res.send(result)
             }
         }
     )
