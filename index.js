@@ -28,6 +28,6 @@ app.put('/update', putProduct)
 app.delete('/delete/:id', deleteProduct);
 
 
-app.listen(4000, '192.168.0.204', () => {
+app.listen(PORT, () => {
     console.log(`amazing and stylish server is running on port: ${PORT}`)
 })
